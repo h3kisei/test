@@ -14,7 +14,8 @@
     "watch:browser": "lerna run --parallel watch --ignore electron-app",
     "test": "cd hoang && yarn test",
     "watch:electron": "lerna run --parallel watch --ignore browser-app",
-    "test": "cd hoang && yarn test"
+    "test": "cd hoang && yarn test",
+    "build:extensions": "yarn && yarn build:electron"
   },
   "devDependencies": {
     "lerna": "2.4.0"
